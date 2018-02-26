@@ -1,7 +1,8 @@
 .wrapper {
-    background: white;
+    background: #ECEFF1;
     height: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-flow: row wrap;
+    align-content: flex-start;
     overflow: auto;
-}   
+  }
