@@ -3,7 +3,7 @@ import Wrapper from '../../components/Wrapper';
 import Aside from '../../components/Aside';
 import Match from '../../components/Match';
 import Main from '../../components/Main';
-// import Card from '../../components/Card';
+import Card from '../../components/Card';
 
 class Discover extends Component {
 
@@ -28,7 +28,8 @@ class Discover extends Component {
                         image="http://via.placeholder.com/120x60" />
                 </Aside>
                 <Main>
-                    {/* Card */}
+                    <Card
+                        image="http://via.placeholder.com/600x600" />
                 </Main>
             </Wrapper>
         );

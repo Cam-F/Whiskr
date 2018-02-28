@@ -4,7 +4,7 @@ import './Match.css';
 const Match = props =>
     <div className="match-card">
         <div className="img-container">
-            <img src={props.image} />
+            <img src={props.image} alt=""/>
         </div>
         <div className="match-name">
             <p class="name">{props.name}</p>
