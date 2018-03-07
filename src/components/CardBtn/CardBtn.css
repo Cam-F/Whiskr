@@ -31,17 +31,11 @@
     content: "\f004";
 }
 
-.info {
-    right: 43%;
-    color: lightskyblue;
-    background: white;
-}
-
 .info:after {
-    content: "\f129";
+    content: "\f05a";
 }
 
-.pick:hover::after, .pass:hover::after, .info:hover:after {
+.pick:hover::after, .pass:hover::after {
     animation: iconBounce .57s 1;
 }
 

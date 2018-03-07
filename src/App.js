@@ -15,7 +15,6 @@ const App = () =>
         <Route exact path="/discover" component={Discover} />
         <Route exact path="/local" component={Local} />
       </Wrapper>
-      {/* <Footer /> */}
     </div>
   </Router>;
 
